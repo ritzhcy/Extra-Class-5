@@ -1,0 +1,95 @@
+.container1
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px;
+}
+.container2
+{
+    display: grid;
+    grid-template-columns: 50% 30% 20% ;
+    grid-template-rows: 40% 30% 30%;
+}
+.container3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 30% 30%;
+}
+.container4
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-row-gap: 10px;
+}
+.box1
+{
+    background-color: brown;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.box2
+{
+    background-color: blue;
+}
+.box3
+{
+    background-color: red;
+}
+.box4
+{
+    background-color: green;
+}
+.box5
+{
+    background-color: tomato;
+}
+.box6
+{
+    background-color: yellow;
+}
+.box7
+{
+    background-color: pink;
+}
+.box8
+{
+    background-color: slateblue;
+}
+.box9
+{
+    background-color: darkgoldenrod;
+}
+.container5{
+    display: grid;
+    grid-template-columns:25% 50% 25%;
+    grid-template-rows:50px 200px 50px;
+    grid-column-gap: 25px;
+    grid-row-gap:25px; 
+}
+.box10
+{
+    background-color: brown;
+    grid-column: 1/4;
+    text-align: center;
+    padding-top:15px ;   
+}
+.box11
+{
+    background-color: blue;
+}
+.box12
+{
+        background-color: red;
+}
+.box13
+{
+    background-color: green;
+}
+.box14
+{
+    background-color:tomato;
+    grid-column: 1/4;    
+}
+    
